@@ -1,0 +1,16 @@
+﻿/*Este se chama selector universal, serve para atribuir mesmas caracteristicas as letras
+*{margin:0; padding:0; color:blue; font-size:30px}
+ */
+
+
+/*Este será apenas para um determinado tipo de letra(e se chama selector tag), no caso o h1*/
+h1 {color:blue; font-size:25px; font-family:tahoma;}
+h3 {color:black; font-size:19px; font-family:arial;}
+p  {color:black; font-size:17px; font-family:arial;}
+li, h2 {color:red; font-size:14px; font-family:arial; }
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td { color: black; border: 2px solid black}
